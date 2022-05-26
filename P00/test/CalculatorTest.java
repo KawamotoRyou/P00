@@ -66,7 +66,7 @@ public class CalculatorTest {
 		int a = 4321;
 		int b = 1234;
 
-		if(a == (int)b && a == (int)b) {
+		if(a == (int)b && b == (int)b) {
 			if( a > 0  && b > 0) {
 				assertTrue(true);
 			}else {
@@ -121,7 +121,7 @@ public class CalculatorTest {
 		int a = 4321;
 		int b = 1234;
 
-		if(a == (int)b && a == (int)b) {
+		if(a == (int)a && b == (int)b) {
 			if( a > 0  && b > 0) {
 				assertTrue(true);
 			}else {
@@ -175,7 +175,7 @@ public class CalculatorTest {
 		int a = 4321;
 		int b = 1234;
 
-		if(a == (int)b && a == (int)b) {
+		if(a == (int)a && b == (int)b) {
 			if( a > 0  && b > 0) {
 				assertTrue(true);
 			}else {
@@ -229,7 +229,7 @@ public class CalculatorTest {
 		int a = 6666;
 		int b = 3333;
 
-		if(a == (int)b && a == (int)b) {
+		if(a == (int)a && b == (int)b) {
 			if( a > 0  && b > 0) {
 				assertTrue(true);
 			}else {
